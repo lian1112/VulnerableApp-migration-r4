@@ -1,0 +1,7 @@
+capture:
+  languages:
+    include:
+      - java
+  build:
+    clean-command: ./gradlew clean --no-daemon
+    build-command: ./gradlew classes -x test --no-daemon
